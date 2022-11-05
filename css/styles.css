@@ -6,6 +6,9 @@
 /* Колір бекграунд хедера #FFFFFF;*/
 /* Колір бекграунд мейн #F5F5F5; */
 /* Колір бекграунд footer #2F303A */
+ul {
+  list-style: none;
+}
 .page-header {
   background: #ffffff;
 }
