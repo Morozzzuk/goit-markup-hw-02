@@ -45,3 +45,11 @@ ul {
 .link focus {
   color: 2196f3;
 }
+/* Buttons */
+.buttons {
+  color: #212121;
+}
+.all {
+  background-color: #2196f3;
+  color: #ffffff;
+}
