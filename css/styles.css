@@ -13,7 +13,8 @@ ul {
 .page-header {
   background: #ffffff;
 }
-.logo, .logfoot {
+.logo,
+.logfoot {
   color: #2196f3;
 }
 .logo-part {
@@ -28,7 +29,8 @@ ul {
 .footer-part {
   background: #2f303a;
 }
-.address-location, .logo-item {
+.address-location,
+.logo-item {
   color: #ffffff;
 }
 .address-mail,
@@ -39,6 +41,7 @@ ul {
 .link {
   color: #212121;
 }
-.site-nav, .link focus {
+.site-nav,
+.link focus {
   color: 2196f3;
 }
