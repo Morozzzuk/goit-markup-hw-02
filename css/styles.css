@@ -9,6 +9,7 @@
 ul {
   list-style: none;
 }
+/* Header and footer */
 .page-header {
   background: #ffffff;
 }
@@ -16,7 +17,7 @@ ul {
   color: #2196f3;
 }
 .logo-part {
-  color: black;
+  color: #212121;
 }
 .mail {
   color: #2196f3;
@@ -33,4 +34,11 @@ ul {
 .address-mail,
 .address-phone {
   color: rgba(255, 255, 255, 0.6);
+}
+/* Navigation */
+.link {
+  color: #212121;
+}
+.site-nav, .link focus {
+  color: 2196f3;
 }
