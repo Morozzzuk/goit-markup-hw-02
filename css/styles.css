@@ -12,7 +12,7 @@ ul {
 .page-header {
   background: #ffffff;
 }
-.logo {
+.logo, .logfoot {
   color: #2196f3;
 }
 .logo-part {
@@ -27,7 +27,7 @@ ul {
 .footer-part {
   background: #2f303a;
 }
-.address-location {
+.address-location, .logo-item {
   color: #ffffff;
 }
 .address-mail,
