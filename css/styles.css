@@ -47,6 +47,7 @@ ul {
 .button {
   color: var(--primary-text-color);
   background: var(--button-background-color);
+  cursor: pointer;
 }
 .button:hover,
 .button:focus,
