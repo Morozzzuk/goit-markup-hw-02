@@ -4,6 +4,7 @@
 
 /* Акцент #2196F3 */
 /* Колір бекграунд хедера #FFFFFF;*/
+/* Колір кнопок в спокої #F5F4FA; */
 /* Колір бекграунд мейн #F5F5F5; */
 /* Колір бекграунд footer #2F303A */
 ul {
@@ -43,13 +44,16 @@ ul {
 }
 .site-nav,
 .link focus {
-  color: 2196f3;
+  color: ;
 }
 /* Buttons */
-.buttons {
+.button {
   color: #212121;
+  background: #f5f4fa;
 }
-.all {
-  background-color: #2196f3;
+.button:hover,
+.button:focus,
+.button:active {
   color: #ffffff;
+  background: #2196f3;
 }
