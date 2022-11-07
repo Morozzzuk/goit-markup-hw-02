@@ -68,9 +68,6 @@ ul {
   color: var(--info-color);
 }
 /* Navigation part*/
-.link {
-  color: #212121;
-}
 .site-nav,
 .link:hover,
 .link:focus {
