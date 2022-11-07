@@ -29,11 +29,13 @@ ul {
   color: var(--primary-text-color);
 }
 .mail {
-  color: var(--accent-color);
+  color: var(--text-color);
 }
 .phone {
   color: var(--text-color);
 }
+.mail:hover,
+.mail:focus,
 .phone:hover,
 .phone:focus {
   color: var(--accent-color);
