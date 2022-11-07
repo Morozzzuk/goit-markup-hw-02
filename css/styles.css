@@ -20,7 +20,7 @@ ul {
   list-style: none;
 }
 /* Header */
-.page-header {
+.header {
   background: var(--background-color);
 }
 .logo,
@@ -30,16 +30,16 @@ ul {
 .logo-part {
   color: var(--primary-text-color);
 }
-.mail {
+.header-mail {
   color: var(--text-color);
 }
-.phone {
+.header-tel {
   color: var(--text-color);
 }
-.mail:hover,
-.mail:focus,
-.phone:hover,
-.phone:focus {
+.header-mail:hover,
+.header-mail:focus,
+.header-tel:hover,
+.header-tel:focus {
   color: var(--accent-color);
 }
 /* Buttons */
@@ -53,7 +53,6 @@ ul {
   color: var(--secondary-text-color);
   background: var(--accent-color);
 }
-
 .main-part {
   background: var(--background-color);
 }
@@ -66,14 +65,14 @@ ul {
   color: var(--secondary-text-color);
 }
 .address-mail,
-.address-phone {
+.address-tel {
   color: var(--info-color);
 }
 /* Navigation part*/
 .link {
   color: var(--primary-text-color);
 }
-.site-nav,
+.header-nav,
 .link:hover,
 .link:focus {
   color: var(--accent-color);
