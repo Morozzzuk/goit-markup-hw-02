@@ -68,6 +68,14 @@ ul {
 .address-tel {
   color: var(--info-color);
 }
+.address-location:hover,
+.address-location:focus,
+.address-mail:hover,
+.address-mail:focus,
+.address-tel:hover,
+.address-tel:focus {
+  color: var(--accent-color);
+}
 /* Navigation part*/
 .link {
   color: var(--primary-text-color);
