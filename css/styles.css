@@ -38,7 +38,7 @@ ul {
 .mail:focus,
 .phone:hover,
 .phone:focus {
-  color: var(--accent-color);
+  color: var(--primary-text-color);
 }
 /* Buttons */
 .button {
