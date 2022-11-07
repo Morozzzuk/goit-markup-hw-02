@@ -13,7 +13,7 @@ body {
   color: var(--primary-text-color);
   background-color: var(--background-color);
 
-  font-family: 'Raleway","Roboto';
+  font-family: 'Raleway', 'Roboto', sans-serif;
 }
 
 ul {
