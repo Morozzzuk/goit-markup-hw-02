@@ -77,7 +77,7 @@ ul {
   color: var(--accent-color);
 }
 .link:active {
-  color: yellow;
+  color: var(--accent-color);
 }
 
 /* Сховати заголовки */
