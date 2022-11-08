@@ -41,11 +41,6 @@ ul {
 
   text-decoration: none;
 }
-/* .header-tel { 
-  color: var(--text-color);
-
-  text-decoration: none;
-}*/
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
