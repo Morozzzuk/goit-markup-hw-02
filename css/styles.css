@@ -24,19 +24,28 @@ ul {
 .header {
   background: var(--background-color);
 }
+.header-link {
+  text-decoration: none;
+}
 .logo,
 .logfoot {
   color: var(--accent-color);
+  text-decoration: none;
 }
 .logo-part {
   color: var(--primary-text-color);
 }
-.header-mail {
-  color: var(--text-color);
-}
+.header-mail,
 .header-tel {
   color: var(--text-color);
+
+  text-decoration: none;
 }
+/* .header-tel { 
+  color: var(--text-color);
+
+  text-decoration: none;
+}*/
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
@@ -62,10 +71,14 @@ ul {
 .address-location,
 .logo-item {
   color: var(--secondary-text-color);
+
+  text-decoration: none;
 }
 .address-mail,
 .address-tel {
   color: var(--info-color);
+
+  text-decoration: none;
 }
 .address-location:hover,
 .address-location:focus,
