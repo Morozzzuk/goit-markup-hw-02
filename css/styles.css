@@ -50,6 +50,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.btn [
+
+]
 /* ------ Сховати заголовки -------*/
 .visually-hidden {
   position: absolute;
