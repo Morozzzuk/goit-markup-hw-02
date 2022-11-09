@@ -3,49 +3,132 @@
   --secondary-text-color: #ffffff;
   --accent-color: #2196f3;
   --text-color: #757575;
-  --background-color: #ffffff;
-  --footer-background-color: #2f303a;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
   --button-background-color: #f5f4fa;
   --border-color: #eeeeee;
   --info-color: rgba(255, 255, 255, 0.6);
+
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
 }
 body {
   color: var(--primary-text-color);
   background-color: var(--background-color);
 
-  font-family: 'Roboto', 'Raleway', sans-serif;
+  font-family: var(--main-font);
   color: var(--primary-text-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-
-ul {
+/* -------- universal classes ------------*/
+.list {
   list-style: none;
 }
-/* Header */
-.header {
-  background: var(--background-color);
-}
-.header-link {
+.link {
   text-decoration: none;
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.after-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+/* ------ Сховати заголовки -------*/
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* --------- Header ----------*/
+.header {
+  background: var(--main-background-colorbackground-color);
 }
 .logo,
 .logfoot {
   color: var(--accent-color);
   text-decoration: none;
+
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .logo-part {
   color: var(--primary-text-color);
+
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 .header-mail,
 .header-tel {
   color: var(--text-color);
-
   text-decoration: none;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
 .header-tel:focus {
   color: var(--accent-color);
+}
+/* ------- Hero -------- */
+.hero-title {
+  color: var(--secondary-text-color);
+  background-color: var(--secondary-background-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+/* -------- Features --------------- */
+.features-text {
+  color: var(--text-color);
+}
+/* -------- Command ------------------ */
+.command-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.command-info {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
 /* Buttons */
 .button {
@@ -59,9 +142,9 @@ ul {
   color: var(--secondary-text-color);
   background: var(--accent-color);
 }
-/* Footer */
-.footer-part {
-  background: var(--footer-background-color);
+/* ----------- Footer ------------- */
+.footer {
+  background: var(--secondary-background-color);
 }
 .address-location,
 .logo-item {
@@ -84,9 +167,6 @@ ul {
   color: var(--accent-color);
 }
 /* Navigation part*/
-.link {
-  color: var(--primary-text-color);
-}
 .header-nav,
 .link:hover,
 .link:focus {
@@ -94,18 +174,4 @@ ul {
 }
 .link:active {
   color: var(--accent-color);
-}
-
-/* Сховати заголовки */
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-
-  white-space: nowrap;
-  clip: rect(0 0 0 0);
-  overflow: hidden;
 }
