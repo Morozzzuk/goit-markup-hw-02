@@ -109,7 +109,7 @@ body {
 .site-nav.link:focus {
   color: var(--accent-color);
 }
-.site-nav.link.current {
+.site-nav.link. {
   color: var(--accent-color);
 }
 /* ------- Hero -------- */
