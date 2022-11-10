@@ -9,14 +9,14 @@
   --border-color: #eeeeee;
   --info-color: rgba(255, 255, 255, 0.6);
 
-  --main-font: 'Roboto', sans-serif;
-  --secondary-font: 'Raleway', sans-serif;
+  /* --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif; */
 }
 body {
   color: var(--primary-text-color);
   background-color: var(--background-color);
 
-  font-family: var(--main-font);
+  font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--primary-text-color);
   font-weight: 400;
   font-size: 14px;
