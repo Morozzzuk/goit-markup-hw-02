@@ -162,13 +162,13 @@ body {
   background: var(--accent-color);
 }
 /* ------ Examples of projects ---------- */
-.example-projects {
+.project-title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
-.example-info {
+.project-info {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
