@@ -50,9 +50,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.btn [
-
-]
+.buttons {
+  list-style: none;
+}
 /* ------ Сховати заголовки -------*/
 .visually-hidden {
   position: absolute;
@@ -104,6 +104,14 @@ body {
 .header-tel:focus {
   color: var(--accent-color);
 }
+/* Navigation part*/
+.site-nav.link:hover,
+.site-nav.link:focus {
+  color: var(--accent-color);
+}
+.site-nav.link.current {
+  color: var(--accent-color);
+}
 /* ------- Hero -------- */
 .hero-title {
   color: var(--secondary-text-color);
@@ -134,16 +142,29 @@ body {
   letter-spacing: 0.03em;
 }
 /* Buttons */
-.button {
+.btn {
   color: var(--primary-text-color);
   background: var(--button-background-color);
   cursor: pointer;
 }
-.button:hover,
-.button:focus,
-.button:active {
+.btn:hover,
+.btn:focus {
   color: var(--secondary-text-color);
   background: var(--accent-color);
+}
+/* ------ Examples of projects ---------- */
+.example-projects {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.example-info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: #757575;
 }
 /* ----------- Footer ------------- */
 .footer {
@@ -167,14 +188,5 @@ body {
 .address-mail:focus,
 .address-tel:hover,
 .address-tel:focus {
-  color: var(--accent-color);
-}
-/* Navigation part*/
-.header-nav,
-.link:hover,
-.link:focus {
-  color: var(--accent-color);
-}
-.link:active {
   color: var(--accent-color);
 }
