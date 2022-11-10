@@ -14,11 +14,10 @@
 }
 body {
   color: var(--primary-text-color);
-  background-color: var(--background-color);
+  background-color: var(--main-background-color);
 
   font-family: 'Roboto', 'Raleway', sans-serif;
   color: var(--primary-text-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -27,27 +26,25 @@ body {
 .list {
   list-style: none;
 }
-.link {
+.nav-link,
+.section-link {
   text-decoration: none;
   color: var(--primary-text-color);
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.title {
+.section-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
 }
-.after-title {
-  font-weight: 700;
+.feature-title {
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .buttons {
@@ -77,19 +74,11 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .logo-part {
   color: var(--primary-text-color);
-
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
 }
-.header-mail,
-.header-tel {
+.contact-link {
   color: var(--text-color);
   text-decoration: none;
 
@@ -98,18 +87,16 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.header-mail:hover,
-.header-mail:focus,
-.header-tel:hover,
-.header-tel:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
 /* Navigation part*/
-.site-nav.link:hover,
-.site-nav.link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
-.site-nav.link.current {
+.nav-link.current {
   color: var(--accent-color);
 }
 /* ------- Hero -------- */
@@ -133,7 +120,7 @@ body {
   letter-spacing: 0.06em;
 }
 /* -------- Features --------------- */
-.features-text {
+.feature-text {
   color: var(--text-color);
 }
 /* -------- Command ------------------ */
@@ -143,12 +130,10 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
 }
-.command-info {
+.command-position {
   color: var(--text-color);
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 /* Buttons */
 .btn {
@@ -163,21 +148,21 @@ body {
 }
 /* ------ Examples of projects ---------- */
 .project-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .project-info {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--text-color);
 }
 /* ----------- Footer ------------- */
 .footer {
   background: var(--secondary-background-color);
+}
+.address {
+  font-style: normal;
 }
 .address-location,
 .logo-item {
@@ -185,17 +170,14 @@ body {
 
   text-decoration: none;
 }
-.address-mail,
-.address-tel {
+.footer-contact {
   color: var(--info-color);
 
   text-decoration: none;
 }
 .address-location:hover,
 .address-location:focus,
-.address-mail:hover,
-.address-mail:focus,
-.address-tel:hover,
-.address-tel:focus {
+.footer-contact:hover,
+.footer-contact:focus {
   color: var(--accent-color);
 }
